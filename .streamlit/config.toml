@@ -1,0 +1,17 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8502
+
+[runner]
+fastReruns = true
+
+[theme]
+base = "dark"
+primaryColor = "#ff4b6e"
+backgroundColor = "#0e1117"
+secondaryBackgroundColor = "#161a26"
+textColor = "#e6e9ef"
+font = "sans serif"

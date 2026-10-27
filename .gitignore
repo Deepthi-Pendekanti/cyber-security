@@ -30,3 +30,8 @@ Thumbs.db
 *.pt
 *.pth
 *.ckpt
+
+# Raw CIC-IDS2017 dataset (~843 MB, exceeds GitHub's 100 MB limit).
+# Re-download with scripts/download_cicids2017.py. The small cached
+# stream (data/stream.npz, ~7 MB) IS tracked so the project runs out-of-box.
+data/raw/
